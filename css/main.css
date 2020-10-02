@@ -1,0 +1,81 @@
+html, body {
+    font-size: 20px;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(234, 234, 234);
+    color: rgb(7, 54, 66);
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: rgb(44, 103, 224);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(203, 75, 22);
+    text-decoration: underline;
+}
+
+.main-wrapper {
+    margin-bottom: -2em;
+    min-height: 100%;
+}
+
+.heading {
+    font-family: 'Arial';
+    font-size: 2.5em;
+    font-weight: 700;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+}
+
+.heading img {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin: 0.5em auto 0.5em auto;
+    width: 3em;
+}
+
+
+.frame {
+  height: 100px; /*can be anything*/
+  width: 100px; /*can be anything*/
+  display: inline-block;
+  vertical-align: top; /*not required*/
+  position: relative;
+}
+
+.foot img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.cen {
+    text-align: center;
+}
+
+
+.body-text {
+    font-size: 1em;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 33em;
+}
+
+.body-text p {
+    word-wrap: break-word;
+}
